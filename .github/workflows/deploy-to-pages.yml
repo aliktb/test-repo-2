@@ -17,6 +17,8 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.4
+        with:
+          folder: gh-pages
 
 
 
